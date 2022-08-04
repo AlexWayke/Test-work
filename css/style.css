@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
+}
+
+.text {
+  font-size: 1.6em;
+  line-height: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.6em;
+}
+
+.cost {
+  font-size: 1.8em;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+body {
+  font-weight: 400;
+  font-size: 10px;
+  font-family: Montserrat;
+  color: #35383A;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 37px;
+}
+.header_cart {
+  position: relative;
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  min-width: 142px;
+}
+.header_cart::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 23px;
+  background: no-repeat url(/src/icon/cart.svg);
+  z-index: -10;
+}
+.header_cart a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding-top: 5px;
+}
+.header_cart:hover {
+  color: #00A82D;
+}
+.header_cart:hover::before {
+  background: no-repeat url(/src/icon/cart_green.svg);
+}
+
+.catalog {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.catalog_title {
+  line-height: 39px;
+  margin-bottom: 40px;
+}
+.catalog_items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 40px;
+  grid-column-gap: 30px;
+}
+.item {
+  width: 270px;
+  height: 380px;
+  padding: 10px 10px 35px;
+  box-sizing: border-box;
+  border: 1px solid #DEDEDE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.item_image {
+  margin-bottom: auto;
+}
+.item_name {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.item_btn {
+  background-color: #296DC1;
+  padding: 0 12px;
+  height: 0px;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 16px;
+  transition: height 0.3s linear;
+}
+.item:hover {
+  padding: 10px 20px 10px;
+}
+.item:hover button {
+  height: 40px;
+  transition: height 0.3s ease;
+}
+
+.cart {
+  margin: 60px 0 40px;
+}
+.cart_title {
+  text-align: center;
+}
+
+.form {
+  background-color: #F2F5F9;
+  padding: 70px 0 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_title {
+  margin-bottom: 30px;
+}
+.form_item {
+  margin-bottom: 30px;
+}
+.form_input {
+  height: 60px;
+  width: 430px;
+  padding: 0 25px;
+  box-sizing: border-box;
+  font-size: 1.6em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.form_button {
+  height: 60px;
+  width: 430px;
+  background-color: #296DC1;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 16px;
+}
+
+.disable {
+  opacity: 0.5;
+}
+
+footer {
+  margin-top: 70px;
+  padding: 20px 0;
+  border-top: 1px solid #A8AFBB;
+  color: #7C828B;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 16px;
+}

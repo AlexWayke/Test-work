@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Test work</title>
+</head>
+<body>
+    < class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header_logo">
+                    <a href="#">
+                        <img class="header_logo-image" src="/src/logo/logo_1.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header_cart text">
+                    <a href="#">Корзина</a>
+                </div>
+            </header>
+        </div>
+        <main class="main">
+            <section class="cart">
+                <div class="cart_title">
+                    <h1>Корзина</h1>
+                </div>
+            </section>
+            <section class="form">
+                <div class="form_title">
+                    <h2>Пожалуйста, представьтесь</h2>
+                </div>
+                <form id="form" class="form_body" method="post">
+                    <div class="form_item">
+                        <input placeholder="Ваше имя" id="formName" data-reg="^[А-Я-а-яё]*$" type="text" name="name" required class="form_input">
+                    </div>
+                    <div class="form_item">
+                        <input placeholder="Телефон" id="formTel" data-reg="^((\+7|7|8)+([0-9]){10})$" type="text" name="phone" required class="form_input">
+                    </div>
+                    <div class="form_item">
+                        <input placeholder="Email" id="formMail" data-reg="" type="text" name="mail" required class="form_input">
+                    </div>
+                    <button class="form_button disable" type="submit">оформить заказ</button>
+                </form>
+            </section>
+        </main>
+        <div class="container">
+            <footer class="footer">
+                Тестовое задание на должность младшего программиста «Лидера поиска», ver. 3.0
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
