@@ -19,7 +19,6 @@ h2 {
     font-size: 1.8em;
     font-weight: 700;
     line-height: 24px;
-    margin-bottom: 15px;
 }
 // Main====================
 
@@ -27,7 +26,7 @@ body {
     font-weight: 400;
     font-size: 10px;
     font-family: Montserrat;
-    color: #35383A;
+    color: #000;
 }
 .container {
     max-width: 1200px;
@@ -62,6 +61,8 @@ margin-top: 37px;
     &_cart {
         position: relative;
         text-align: center;
+        color: #35383A;
+
         height: 30px;
         font-weight: 600;
         width: 142px;
@@ -185,8 +186,11 @@ margin-top: 37px;
             
         height: 40px;
         }
+        
     }
-
+    &_cost{
+        margin-bottom: 15px;
+    }
     &:hover{
         padding: 10px 20px 10px;
     }
@@ -202,6 +206,149 @@ margin-top: 37px;
     margin: 60px 0 40px;
     &_title {
         text-align: center;
+    }
+
+    &_items {
+        display: flex;
+        flex-direction: column;
+    }
+    &_item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        padding: 0 30px 40px 12px;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        border-bottom: #A8AFBB solid 1px;
+        @media (max-width: 931px) {
+            justify-content: space-between;
+        }
+        @media (max-width: 691px) {            
+        flex-direction: column;
+        }
+    }
+    &_image {
+        width: 125px;
+        margin-right: 65px;
+        
+        & img {
+            width: 100%;
+        }
+        @media (max-width: 931px) {
+            margin: 0;
+        }
+        @media (max-width: 691px) {
+        margin: 30px 0 10px;
+        width: 400px;
+        }
+        @media (max-width: 511px) {
+            width: 200px;
+        }
+    }
+    &_name {
+        font-weight: 500;
+        margin-right: 150px;
+        max-width: 270px;
+        @media (max-width: 1170px) {
+            margin-right: 50px;
+        }
+        @media (max-width: 931px) {
+            margin: 0;
+        }
+        @media (max-width: 691px) {
+            margin: 0 0 15px;
+            text-align: center;
+        }
+    }
+    &_counter{
+        margin-right: 160px;
+        @media (max-width: 1170px) {            
+        margin-right: 75px;
+        }
+        @media (max-width: 931px) {
+            margin: 0;
+        }
+        @media (max-width: 691px) {            
+            margin: 0 0 15px;         
+        }
+        
+    }
+    
+    &_price {
+        margin-right: auto;
+        width: 100px;
+        @media (max-width: 931px) {
+            margin: 0;
+        }
+        @media (max-width: 691px) {
+            margin: 0 0 15px;
+            text-align: center;
+        }
+    }
+    &_remove {
+        cursor: pointer;
+
+        &-icon{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: 931px) {
+            margin: 0;
+        }
+        @media (max-width: 691px) {
+            display: none;
+        }
+        }
+        &-btn {
+            display: none;
+            @media (max-width: 691px) {
+                display: inline-block;
+            }
+        }
+    }
+    &_summ {
+        text-align: right;
+        @media (max-width: 691px) {
+            text-align: center;
+        }
+    }
+}
+.counter{
+
+    &_wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 160px;
+        height: 40px;
+        box-sizing: border-box;
+        border: #A8AFBB 1px solid;
+
+        font-size: 1.6em;
+        text-align: center;
+    }
+    &_minus {
+        width: 42px;
+        height: 100%;
+        border-right: #A8AFBB 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    &_plus {
+        width: 42px;
+        height: 100%;
+        border-left: #A8AFBB 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
     }
 }
 
