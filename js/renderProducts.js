@@ -12,7 +12,7 @@ async function getProducts() {
 
 function renderProducts(productsArray) {
     productsArray.forEach(function (item) {
-        const productHTML = `<div class="catalog_item item" data-id="${item.id}">
+        const productHTML = `<div class="catalog_item item js-product" data-quantity="${item.quantity}" data-imgSrc="${item.imgSrc}" data-name="${item.name}" data-cost="${item.cost}" data-product-id="${item.id}">
         <div class="item_image">
             <img class="item-img" src="${item.imgSrc}" alt="item">
         </div>
@@ -22,7 +22,7 @@ function renderProducts(productsArray) {
         <div class="cost item_cost">
             ${item.cost} ₽
         </div>
-        <button class="item_btn">
+        <button data-cart class="item_btn js-btn-add-to-cart">
             добавить в корзину
         </button>
         </div>`;
