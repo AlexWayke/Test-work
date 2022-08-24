@@ -99,7 +99,7 @@ margin-top: 37px;
             top: 0;
             width: 28px;
             height: 23px;
-            background: no-repeat url(/src/icon/cart.svg);
+            background: no-repeat url(/Test-work/src/icon/cart.svg);
             // z-index: -10;
         }
         & a {
@@ -119,7 +119,7 @@ margin-top: 37px;
     &_cart:hover{
         color: #00A82D;
         &::before{
-            background: no-repeat url(/src/icon/cart_green.svg);
+            background: no-repeat url(/Test-work/src/icon/cart_green.svg);
         }
     }
 }
