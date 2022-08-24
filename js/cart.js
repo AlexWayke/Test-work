@@ -21,13 +21,13 @@
                 ${name}
             </div>
             <div class="cart_counter counter_wrapper">
-                <div class="counter_minus js-btn-product-decrease-quantity" data-action="minus"><img src="/src/icon/minus.svg" alt="-"></div>
+                <div class="counter_minus js-btn-product-decrease-quantity" data-action="minus"><img src="/Test-work/src/icon/minus.svg" alt="-"></div>
                 <div class="counter_current js-cart-item-quantity" data-counter>${quantity}</div>
-                <div class="counter_plus js-btn-product-increase-quantity" data-action="plus"><img src="/src/icon/plus.svg" alt="+"></div>
+                <div class="counter_plus js-btn-product-increase-quantity" data-action="plus"><img src="/Test-work/src/icon/plus.svg" alt="+"></div>
             </div>
             <div class="cart_price cost"> <span class="js-cart-item-cost">${cost}</span> ₽</div>
-            <button class="cart_remove-icon js-btn-cart-item-remove"><img src="/src/icon/close.svg" alt="close"></button>
-            <button class="cart_remove-btn js-btn-cart-item-remove"><img src="/src/icon/remove.png" alt="close"></button>
+            <button class="cart_remove-icon js-btn-cart-item-remove"><img src="/Test-work/src/icon/close.svg" alt="close"></button>
+            <button class="cart_remove-btn js-btn-cart-item-remove"><img src="/Test-work/src/icon/remove.png" alt="close"></button>
         </div>
         `;
 
