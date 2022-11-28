@@ -3,112 +3,112 @@
         "id": 1,
         "name": "Увлажнитель воздуха STARWIND SHC1322, 3л, белый",
         "cost": 1650,
-        "imgSrc": "/Test-work/src/catalog_items/item1.png",
+        "imgSrc": "./src/catalog_items/item1.png",
         "quantity": 1
     },
     {
         "id": 2,
         "name": "Триммер PHILIPS HC3521/15 серебристый/черный",
         "cost": 2290,
-        "imgSrc": "/Test-work/src/catalog_items/item2.png",
+        "imgSrc": "./src/catalog_items/item2.png",
         "quantity": 1
     },
     {
         "id": 3,
         "name": "Фитнес-трекер HONOR Band 5 CRS-B19S, 0.95\", черный/розовый",
         "cost": 2390,
-        "imgSrc": "/Test-work/src/catalog_items/item3.png",
+        "imgSrc": "./src/catalog_items/item3.png",
         "quantity": 1
     },
     {
         "id": 4,
         "name": "Мышь A4TECH Bloody V3, игровая, оптическая, проводная, USB, черный",
         "cost": 960,
-        "imgSrc": "/Test-work/src/catalog_items/item4.png",
+        "imgSrc": "./src/catalog_items/item4.png",
         "quantity": 1
     },
     {
         "id": 5,
         "name": "Фитнес-трекер HONOR Band 5 CRS-B19S, 0.95\", черный",
         "cost": 2390,
-        "imgSrc": "/Test-work/src/catalog_items/item5.png",
+        "imgSrc": "./src/catalog_items/item5.png",
         "quantity": 1
     },
     {
         "id": 6,
         "name": "Пылесос SINBO SVC 3497, 2500Вт, синий/серый",
         "cost": 5670,
-        "imgSrc": "/Test-work/src/catalog_items/item6.png",
+        "imgSrc": "./src/catalog_items/item6.png",
         "quantity": 1
     },
     {
         "id": 7,
         "name": "Планшет DIGMA Optima 7 Z800 Android 10.0 серебристый",
         "cost": 9490,
-        "imgSrc": "/Test-work/src/catalog_items/item7.png",
+        "imgSrc": "./src/catalog_items/item7.png",
         "quantity": 1
     },
     {
         "id": 8,
         "name": "Монитор игровой ACER Nitro RG241YPbiipx 23.8\" черный",
         "cost": 16800,
-        "imgSrc": "/Test-work/src/catalog_items/item8.png",
+        "imgSrc": "./src/catalog_items/item8.png",
         "quantity": 1
     },
     {
         "id": 9,
         "name": "Экшн-камера DIGMA DiCam 310 4K, WiFi, черный",
         "cost": 2290,
-        "imgSrc": "/Test-work/src/catalog_items/item9.png",
+        "imgSrc": "./src/catalog_items/item9.png",
         "quantity": 1
     },
     {
         "id": 10,
         "name": "Умная колонка ЯНДЕКС c голосовым помощником Алисой, серебристый",
         "cost": 4990,
-        "imgSrc": "/Test-work/src/catalog_items/item10.png",
+        "imgSrc": "./src/catalog_items/item10.png",
         "quantity": 1
     },
     {
         "id": 11,
         "name": "Квадрокоптер DJI Mini 2 MT2PD Fly More Combo с камерой, серый",
         "cost": 60990,
-        "imgSrc": "/Test-work/Test-work/src/catalog_items/item11.png",
+        "imgSrc": "./src/catalog_items/item11.png",
         "quantity": 1
     },
     {
         "id": 12,
         "name": "Шлем виртуальной реальности HTC Vive PRO Eye EEA, черный/синий",
         "cost": 60990,
-        "imgSrc": "/Test-work/src/catalog_items/item12.png",
+        "imgSrc": "./src/catalog_items/item12.png",
         "quantity": 1
     },
     {
         "id": 13,
         "name": "МФУ лазерный CANON i-Sensys MF445dw, A4, лазерный, черный",
         "cost": 35310,
-        "imgSrc": "/Test-work/src/catalog_items/item13.png",
+        "imgSrc": "./src/catalog_items/item13.png",
         "quantity": 1
     },
     {
         "id": 14,
         "name": "Смарт-часы AMAZFIT Bip U, 1.43\", зеленый / зеленый",
         "cost": 4490,
-        "imgSrc": "/Test-work/src/catalog_items/item14.png",
+        "imgSrc": "./src/catalog_items/item14.png",
         "quantity": 1
     },
     {
         "id": 15,
         "name": "Кофемашина PHILIPS EP1224/00, серый/черный",
         "cost": 29990,
-        "imgSrc": "/Test-work/src/catalog_items/item15.png",
+        "imgSrc": "./src/catalog_items/item15.png",
         "quantity": 1
     },
     {
         "id": 16,
         "name": "Гироскутер MIZAR MZ10,5CN, 10.5\", карбон",
         "cost": 12990,
-        "imgSrc": "/Test-work/src/catalog_items/item16.png",
+        "imgSrc": "./src/catalog_items/item16.png",
         "quantity": 1
     }
 ]
